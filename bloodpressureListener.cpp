@@ -2,8 +2,8 @@
 
 SoftwareSerial bloodpressure(2, 3);
 void setup() {
-  Serial.begin(19200);
-  bloodpressure.begin(19200);
+  Serial.begin(9600);
+  bloodpressure.begin(9600);
 }
 void loop() {
   if (bloodpressure.available()) {

@@ -16,7 +16,7 @@ void loop() {
     buffer = (Vin / Vout) - 1;
     R2 = R1 * buffer;
     Serial.print("Vout: ");
-    Serial.println(Vout);
+    Serial.println(Vout, 4);
     Serial.print("R2: ");
     Serial.println(R2);
     delay(1000);
